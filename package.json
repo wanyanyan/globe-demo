@@ -7,6 +7,13 @@
     "start": "webpack-dev-server --progress --hot --open",
     "build": "webpack --env.prod=true"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wanyanyan/globe-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wanyanyan/globe-demo/issues"
+  },
   "dependencies": {
     
   },
