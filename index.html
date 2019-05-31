@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="chs">
+  <head>
+    <meta charset="utf-8">
+    <title>WebGL测试</title>
+    <script src="./lib/cuon-utils.js"></script>
+    <script src="./lib/cuon-matrix.js"></script>
+    <script src="./lib/webgl-utils.js"></script>
+    <script src="./lib/webgl-debug.js"></script>
+    <style>
+      body{
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: #083165;
+      }
+      #globe{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+      .info{
+        position: absolute;
+        bottom: 0;
+        background: gray;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="./dist/bundle.js"></script>
+    <div id="globe"></div>
+    <div class="info">
+      当前级别：<span class="zoom"></span>
+      旋转角度：<span class="center"></span>
+    </div>
+  </body>
+</html>
